@@ -3,7 +3,20 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'background': '#232946',
+      'head': '#fffffe',
+      'paragraph': '#b8c1ec',
+      'button': '#eebbc3',
+      'button-text': '#232946',
+      'primary': '#b8c1ec',
+      'secondary': '#fffffe',
+      'tertiary': '#eebbc3',
+    },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
