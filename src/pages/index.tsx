@@ -1,19 +1,19 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex flex-col py-2">
       <Head>
-        <title>Create Next App</title>
+        <title>Next App with Typescript & Tailwind</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold text-head">
           Welcome to{' '}
-          <a className="text-blue-600 relative after:absolute after:bg-button after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-left after:scale-x-100 hover:after:origin-bottom-right hover:after:scale-x-0 after:transition-transform after:ease-in-out after:duration-300" href="https://nextjs.org">
+          <a className="text-blue-600 relative after:absolute after:bg-black after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-left after:scale-x-100 hover:after:origin-bottom-right hover:after:scale-x-0 after:transition-transform after:ease-in-out after:duration-300" href="https://nextjs.org">
             Next.js!
           </a>
         </h1>
@@ -26,18 +26,6 @@ const Home: NextPage = () => {
         </p>
           
       </main>
-
-      <footer className="flex h-24 w-full items-center justify-center">
-        <a
-          className="flex items-center justify-center gap-2 text-paragraph"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
     </div>
   )
 }
