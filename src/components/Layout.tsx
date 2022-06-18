@@ -10,13 +10,13 @@ interface Props{
 const Layout = ({children}: Props) => {
   return (
     <>
-    <div className='flex flex-col h-screen'>
-      <Header />
-          <main className='grow flex justify-center items-center'>
-             {children} 
-          </main>
-      <Footer />
-    </div>
+      <div className='flex flex-col h-screen'>
+        <Header />
+        <main className='grow flex justify-center items-center'>
+          {children}
+        </main>
+        <Footer />
+      </div>
     </>
   )
 }
