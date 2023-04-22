@@ -1,33 +1,21 @@
 {
   "name": "nextjs-typescript-tailwind",
-  "version": "1.0",
   "private": true,
-  "author": "default-sameer",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx . --ignore-path .gitignore",
-    "format": "prettier --write .",
-    "check-format": "prettier --check .",
-    "prepare": "husky install",
-    "pre-commit": "yarn lint --fix && git add -A ."
+    "start": "next start"
   },
   "dependencies": {
     "daisyui": "^2.14.3",
-    "next": "13.3.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
     "autoprefixer": "^10.4.0",
-    "eslint": "8.17.0",
-    "eslint-config-next": "12.1.6",
-    "eslint-config-prettier": "^8.5.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.2",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.1",

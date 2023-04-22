@@ -3,13 +3,13 @@
 ## To Run Locally
 
 ```bash
-git clone https://github.com/default-sameer/nextjs-typescript-tailwind.git
+git clone https://github.com/default-sameer/nextjs-typescript-tailwind.git                                                                                                                    
 ```
 
 ### Install Dependecies
 
 ```bash
-$ yarn install
+$ yarn install 
 or
 $ npm install
 ```
@@ -18,6 +18,6 @@ $ npm install
 
 ```bash
 $ yarn dev
-or
+or 
 $ npm run dev
 ```
